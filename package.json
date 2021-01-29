@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dariofedes/geoter-data/issues"
   },
-  "homepage": "https://github.com/dariofedes/geoter-data#readme"
+  "homepage": "https://github.com/dariofedes/geoter-data#readme",
+  "dependencies": {
+    "mongoose": "^5.11.14"
+  }
 }

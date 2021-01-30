@@ -7,6 +7,6 @@ module.exports = new Schema({
     signUpDate: { type: Date, required: true, default: new Date },
     publications: [{ type: ObjectId, ref: 'Publication' }],
     liked: [{ type: ObjectId, ref: 'Publication' }],
-    verificationCode: { type: Number, required: true },
+    verificationCode: { type: String, required: true },
     verifyed: { type: Boolean, required: true, default: false }
 })
